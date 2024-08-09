@@ -1,6 +1,6 @@
 ## Terraform custom modules to build Two-Tier Web Application Infrastructure
 
-![Terraform Modules](./Terraform%20modules.gif)
+![Terraform Modules](https://github.com/Victorwasonga/Terraform-custom-modules-to-two-tier-web-application/issues/1/terraform-modules.gif)
 
 ## Overview
 
