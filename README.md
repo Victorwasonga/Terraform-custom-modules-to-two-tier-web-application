@@ -1,6 +1,6 @@
 ## Terraform custom modules to build Two-Tier Web Application Infrastructure
 
-![Terraform Modules](https://github.com/Victorwasonga/Terraform-custom-modules-to-two-tier-web-application/issues/1/terraform-modules.gif)
+![Terraform Animations](terraform%20animations.gif)
 
 ## Overview
 
@@ -87,6 +87,8 @@ Let us configure variables.
 
 create a file named `terraform.tfvars` in the 'root' directory. This file will store the values for the variables used in your Terraform configuration.
 
+
+```
 region = "us-east-1"
 project_name = "terraform-project"
 vpc_cidr = "10.0.0.0/16"
@@ -98,6 +100,8 @@ private_data_subnet_az1_cidr = "10.0.4.0/24"
 private_data_subnet_az2_cidr = "10.0.5.0/24"
 db_username = "vic"
 db_password = "victor2011"
+```
+
 
 ### Deploying the Application
 
